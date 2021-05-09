@@ -65,10 +65,10 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -81,5 +81,7 @@
   },
   "terminal.integrated.shell.windows": "E:\\Git\\bin\\bash.exe",
   "terminal.integrated.rendererType": "dom",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "update.mode": "none",
+  "extensions.autoUpdate": false
 }
